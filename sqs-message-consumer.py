@@ -4,7 +4,7 @@ import boto3
 sqs = boto3.resource('sqs')
 
 # Get the queue named test
-queue = sqs.get_queue_by_name(QueueName='test')
+queue = sqs.get_queue_by_name(QueueName='standard-queue')
 
 # Process messages by printing out body from test Amazon SQS Queue
 for message in queue.receive_messages():

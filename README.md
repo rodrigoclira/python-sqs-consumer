@@ -10,7 +10,7 @@ Python SQS Consumer example
 $ apt-get update
 ```
 ```sh
-$ apt-get install python-pip
+$ apt-get install python3-pip
 ```
 ```sh
 $ pip3 install boto3
